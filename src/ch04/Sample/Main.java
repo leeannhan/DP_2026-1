@@ -13,5 +13,7 @@ public class Main {
         card1.use();
         card2.use();
         card3.use();
+
+        String owner = factory.create("Youngjin Kim").toString();
     }
 }
