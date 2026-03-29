@@ -3,7 +3,7 @@ package hw.ch03;
 public class NumberDisplay extends AbstractDisplay {
     private int number;
 
-    // 숫자를 n회 반복해서 출력하는 생성자 [cite: 876]
+    // [Step 2] 숫자와 반복 횟수를 받는 생성자 
     public NumberDisplay(int number, int repeatCount) {
         super(repeatCount);
         this.number = number;
@@ -11,16 +11,16 @@ public class NumberDisplay extends AbstractDisplay {
 
     @Override
     public void open() { 
-        System.out.println("<<Number>>"); // [cite: 885]
+        System.out.println("<<Number>>"); 
     }
 
     @Override
     public void print() { 
-        System.out.println(number); // [cite: 887]
+        System.out.println(number); // 숫자를 한 줄에 하나씩 출력 
     }
 
     @Override
     public void close() { 
-        System.out.println("<<Number>>"); // [cite: 888]
+        System.out.println("<<Number>>"); 
     }
 }
