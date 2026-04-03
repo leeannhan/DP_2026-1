@@ -1,4 +1,4 @@
-package ch04.Sample.framework;
+package hw.ch04.framework;
 
 public abstract class Product {
     public abstract void use();

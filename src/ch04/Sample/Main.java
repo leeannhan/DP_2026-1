@@ -1,8 +1,8 @@
 package ch04.Sample;
 
-import ch04.Sample.framework.Factory;
-import ch04.Sample.framework.Product;
 import ch04.Sample.idcard.IDCardFactory;
+import hw.ch04.framework.Factory;
+import hw.ch04.framework.Product;
 
 public class Main {
     public static void main(String[] args) {
