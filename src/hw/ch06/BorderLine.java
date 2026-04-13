@@ -12,18 +12,18 @@ public class BorderLine implements Product {
 
     @Override
     public void use(String s) {
-        int length = s.length(); // [cite: 15, 49]
+        int length = s.length(); 
         
-        // 위쪽 라인 출력 [cite: 39]
+        // 위쪽 라인 출력 [
         for (int i = 0; i < length; i++) {
             System.out.print(borderChar);
         }
         System.out.println();
 
-        // 본문 출력 [cite: 40]
+        // 본문 출력 
         System.out.println(s);
 
-        // 아래쪽 라인 출력 [cite: 41]
+        // 아래쪽 라인 출력 
         for (int i = 0; i < length; i++) {
             System.out.print(borderChar);
         }
@@ -34,7 +34,7 @@ public class BorderLine implements Product {
     public Product createCopy() {
         Product p = null;
         try {
-            p = (Product)clone(); // [cite: 43, 51]
+            p = (Product)clone(); 
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
